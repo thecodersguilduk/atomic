@@ -4,6 +4,7 @@ services:
   node:
     build: .
     ports:
-      - '80:3000'
+      - '8080:3000'
+      - '8081:3001'
     volumes:
       - ./source:/home/node/pattern-lab/source
